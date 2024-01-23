@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>5.입력양식 태그 실습하기</title>
+        <!--
+            날짜 : 20204/01/22
+            이름 : 오아람
+            내용 : 입력양식 태그 실습하기
+        -->
+    </head>
+    <body>
+        <h3>입력 양식 태그</h3>
+        <h4>기본입력</h4>
+        <!--
+            form에서 submit을 클릭하면 form action으로 이동한다.
+            form(Browser)에서 서버로 request(GET 방식 : URL주소에 파라미터로 전송) 
+            (POST방식 : 요청헤더로 전송)->이런 방식도 있음
+        -->
+        <form action="https://google.com">
+            <label>아이디 <input type="text" name="uid"></label><br>
+            <label>비밀번호<input type="password" name="pass"></label><br>
+            <input type="submit" value="전송"><br>
+        </form>
+
+        <h4>기타입력</h4>
+        <form action="https://google.com">
+            <h5>취미를 고르세요.</h5>
+            <lable><input type="checkbox" name="hobby" value="1">등산</lable>
+            <lable><input type="checkbox" name="hobby" value="2">여행</lable>
+            <lable><input type="checkbox" name="hobby" value="3">영화</lable>
+            <lable><input type="checkbox" name="hobby" value="4">게임</lable>
+            <lable><input type="checkbox" name="hobby" value="5">운동</lable>
+
+            
+            <h5>성별을 선택하세요</h5>
+            <label><input type="radio" name="gender" value="M">남자</label>
+            <label><input type="radio" name="gender" value="F">여자</label>
+
+            <h5>지역을 선택하세요</h5>
+            <select name="addr">
+                <option>서울</option>
+                <option>대전</option>
+                <option>대구</option>
+                <option>부산</option>
+                <option>광주</option>
+
+            </select>
+
+            <h5>날짜를 선택하세요</h5>
+            <input type="date" name="date">
+
+            <h5>자기소개를 하세요.</h5>
+            <textarea name="myself" cols="30" rows="10"></textarea>
+
+            <h5>전송하기</h5>
+            <input type="submit" value="전송">
+
+        </form>
+
+
+
+    </body>
+</html>

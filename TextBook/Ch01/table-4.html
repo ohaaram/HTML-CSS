@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8"/>
+<title>특정 열에 스타일 속성 지정하기</title>
+    </head>
+
+    <body>
+        <h2>상품 구성</h2>
+        <table>
+            <caption>선물용과 가정용 상품 구성</caption>
+            <colgroup>
+            <col style="background-color: #eee;"><!--첫번째 열 배경색을 지정-->
+            <col>
+            <col span="2" style="width: 150px;"><!--세번째 네번째 열을 묶어서 너비 지정-->
+            
+            </colgroup>
+            
+            <thead>
+                <tr>
+                    <th>용도</th>
+                    <th>중량</th>
+                    <th>개수</th>
+                    <th>가격</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>선물용</td><!--셀을 지정-->
+                    <td>3kg</td><!--표의 내용들-->
+                    <td>11~16과</td>
+                    <td>35000원</td>
+                </tr>
+                
+                <tr>
+                    <td>선물용</td>
+                    <td>5kg</td>
+                    <td>18~26과</td>
+                    <td>52000원</td>
+                </tr>
+        
+                <tr>
+                    <td>가정용</td>
+                    <td>3kg</td>
+                    <td>11~16과</td>
+                    <td>30000원</td>
+                </tr>
+        
+                <tr>
+                    <td>가정용</td>
+                    <td>5kg</td>
+                    <td>18~26과</td>
+                    <td>47000원</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

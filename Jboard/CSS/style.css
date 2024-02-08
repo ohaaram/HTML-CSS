@@ -1,0 +1,585 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "돋움";
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #111;
+  }
+  input,
+  textarea {
+    outline: none;
+  }
+  
+  /* container */
+  #container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+  }
+  /* header */
+  header {
+    width: 100%;
+    height: 40px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+  }
+  
+  header > h3 {
+    float: left;
+    font-weight: bold;
+    color: #777;
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+  header>p{
+    float: right;
+    margin-top: 16px;
+    margin-right: 10px;
+  }
+  
+  /* main */
+  main {
+    width: 100%;
+    height: auto;
+  }
+  main > section {
+  }
+  
+  /* login */
+  .login {
+    position: relative;
+    width: 360px;
+    height: auto;
+    border: 1px solid #cfded8;
+    box-sizing: border-box;
+    margin: 100px auto;
+  }
+  .login > form {
+  }
+  .login > form > table {
+    margin-left: 52px;
+    margin-top: 30px;
+  }
+  .login > form > table tr {
+  }
+  .login > form > table td {
+  }
+  .login > form > table img {
+    width: 20px;
+  }
+  .login > form > table input {
+    width: 162px;
+    height: 22px;
+    margin-left: 6px;
+    margin-bottom: 4px;
+    border: 1px solid #e4eaec;
+    background: #f7f7f7;
+  }
+  .login > form > input[type="submit"] {
+    position: absolute;
+    right: 48px;
+    top: 33px;
+    width: 60px;
+    height: 52px;
+    border: 1px solid #bebebe;
+    background-color: #fdfdfd;
+  }
+  
+  .login > div {
+    width: 100%;
+    height: 100px;
+    background-color: #f5f6fa;
+    border-top: 1px solid #cfded8;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .login > div > h3 {
+  }
+  .login > div > p {
+    margin: 10px 0;
+  }
+  .login > div > a {
+    float: right;
+  }
+  
+  /* terms */
+  .terms {
+    width: 600px;
+    height: auto;
+    margin: 60px auto;
+  }
+  .terms > table {
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #111;
+    box-sizing: border-box;
+  }
+  .terms > table > caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  .terms > table tr {
+  }
+  .terms > table td {
+    padding: 6px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+  }
+  .terms > table textarea {
+    width: 100%;
+    height: 200px;
+    background: #f7f7f7;
+    border: 1px solid #e4eaec;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  .terms > table label {
+    float: right;
+  }
+  .terms > table input[type="checkbox"] {
+    margin-right: 2px;
+  }
+  
+  .terms > table p {
+  }
+  
+  .terms > div {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .terms > div > a {
+  }
+
+
+        /* register */
+        .register {
+            width: 600px;
+            height: auto;
+            margin: 60px auto;
+            box-sizing: border-box;
+          }
+          .register > form {
+          }
+          .register > form > table {
+            width: 100%;
+            margin-bottom: 10px;
+            border-top: 2px solid #111;
+            border-spacing: 0;/*셀 사이의 간격이 없어짐*/
+            border-collapse: collapse;/*셀간의 테두리가 합쳐짐*/
+          }
+          .register > form > table > caption {
+            text-align: left;
+            padding: 10px 0;
+            font-weight: bold;
+            box-sizing: border-box;
+          }
+          .register > form > table tr {
+          }
+          .register > form > table td {
+            padding: 6px 12px;
+            border: 1px solid #d9d9d9;
+            box-sizing: border-box;
+          }
+          .register > form > table td:nth-child(1) {
+            width: 106px;
+            background: #f4f8f9;
+          }
+          .register > form > table td:nth-child(2) {
+          }
+          .register > form > table input {
+            width: 162px;
+            height: 22px;
+            border: 1px solid e4eaec;
+            background: #f7f7f7;
+            text-indent: 4px;
+          }
+    
+          .register > form > table input[name=addr1]{
+            width: 360px;
+            margin: 4px 0;
+        
+          }
+          .register > form > table input[name=addr2]{
+            width: 360px;
+          }
+    
+          .register > form > table button {
+            border: none;
+            vertical-align: -2px;
+        }
+    
+          .register > form > div {
+            text-align: right;
+          }
+
+          /*list*/
+        .list{
+            width: 720px;
+            height: auto;
+            box-sizing: border-box;
+            margin: 60px auto;
+    }
+    .list>h3{}
+    .list>article{}
+    .list>article>table{
+        border-top: 2px solid #111;
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-top: 6px;
+    }
+    .list>article>table tr{}
+    .list>article>table th{
+        padding: 12px;
+        border-top: 1px solid #d1dee2;
+        border-bottom: 1px solid #d1dee2;
+        background-color: #e5ecef;
+        color: #383838;
+    }
+    .list>article>table td{
+        padding: 12px;
+        border-top: 1px solid #e9e9e9;
+        border-bottom:1px solid #e9e9e9 ;
+
+    }
+    .list>article>table td:nth-child(1){width: 50px;text-align: center;}
+    .list>article>table td:nth-child(2){width: auto;}
+    .list>article>table td:nth-child(3){width: 100px;text-align: center;}
+    .list>article>table td:nth-child(4){width: 100px;text-align: center;}
+    .list>article>table td:nth-child(5){width: 50px;text-align: center;}
+
+
+    .list>.paging{
+        padding: 20px;
+        text-align: center;
+    }
+    .list>.paging>a{
+        padding: 8px;
+        background: #f2f2f2;
+        border: 1px solid #d7d7d7;
+    }
+    .list>.paging>.prev{}
+    .list>.paging>.next{}
+    .list>.paging>.num{}
+    .list>.paging>.current{
+        border: 1px solid #6d6d6d;
+        background: #888;
+        color: #fff;
+    }
+
+    .list>div{
+        text-align: right;
+    }
+
+    .modify{
+        margin: 30px auto;
+    }
+    .modify>h3{
+        border-bottom: 2px solid black;
+        padding-bottom: 5px;
+        margin:0;
+        /*margin-bottom: 10px;*/
+    }
+    .modify table{
+      width: 100%;
+      border-spacing: 0;/*셀 사이의 간격이 없어짐*/
+      border-collapse: collapse;/*셀간의 테두리가 합쳐짐*/
+    }
+    .modify td:nth-child(1){
+      width: 50px;
+      height: 50px;
+      border-bottom:1px solid #ddd;
+      box-sizing: border-box;
+      text-align: center;
+      background: #eee;
+    }
+    .modify td:nth-child(2){
+        width: 85%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    .modify>table>td:nth-child(3){}
+
+    .modify textarea{
+      width: 100%;
+      height: 300px;
+      border: none;
+      resize: none;
+
+    }
+    .modify input[name="title"]{
+      border: none;
+      margin-left: 10px;
+    }
+    .modify input[name="file"]{
+      margin-left: 10px;
+    }
+    .modify button {
+            border: none;
+            vertical-align: -2px;
+        }
+    .modify div {
+         text-align: right;
+         margin-top: 10px;
+        }
+
+
+
+        .write{
+          margin: 30px auto;
+      }
+      .write>h3{
+          border-bottom: 2px solid black;
+          padding-bottom: 5px;
+          margin:0;
+          /*margin-bottom: 10px;*/
+      }
+      .write table{
+        width: 100%;
+        border-spacing: 0;/*셀 사이의 간격이 없어짐*/
+        border-collapse: collapse;/*셀간의 테두리가 합쳐짐*/
+      }
+      .write td:nth-child(1){
+        width: 50px;
+        height: 50px;
+        border-bottom:1px solid #ddd;
+        box-sizing: border-box;
+        text-align: center;
+        background: #eee;
+      }
+      .write td:nth-child(2){
+          width: 85%;
+          height: auto;
+          border-bottom: 1px solid #ddd;
+          box-sizing: border-box;
+      }
+
+      .write textarea{
+        width: 100%;
+        height: 300px;
+        border: none;
+        resize: none;
+  
+      }
+      .write input[name="title"]{
+        border: none;
+        margin-left: 10px;
+      }
+      .write input[name="file"]{
+        margin-left: 10px;
+      }
+      .write button {
+              border: none;
+              vertical-align: -2px;
+          }
+      .write div {
+           text-align: right;
+           margin-top: 10px;
+          }
+
+
+
+  
+          .view{
+            margin: 60px auto;
+            width: 720px;
+            height: 60px auto;
+
+          }
+          .view>h3{
+
+            width: 720px;
+            height: 14px;
+            margin: 0;
+            padding-bottom: 5px;
+          }
+          .view td:nth-child(1){
+            width: 100px;
+            text-align: center;
+            background: #f5f8f9;
+            border-bottom: 1px solid #ddd;
+    
+          }
+          .view td{
+            padding: 12px 6px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+          }
+          .view table{
+            width: 100%;
+            border-spacing: 0;/*셀 사이의 간격이 없어짐*/
+            border-collapse: collapse;/*셀간의 테두리가 합쳐짐*/        
+            border-top: 2px solid #111;
+            margin-top: 6px;
+          }
+          
+          .view input{
+            width: 62px;
+            height: 30px;
+            padding: 7px;
+            border: 1px solid #3b3c3f;
+          }
+    
+          .view table textarea{
+            width: 100px;
+            height: 280px;
+            resize: none;
+            border: 0;
+          }
+    
+          .view button{
+            border: none;
+            vertical-align: -2px;
+          }
+          .view div{
+            text-align: right;     
+            margin-top: 10px;   
+            
+          }
+          .view>section{
+            padding: 20px;
+            border: 1px solid #e3e3e3;
+            background: #f9f9f9;
+            margin-bottom: 16px;
+            margin-top: 10px;
+          }
+    
+          .view>section>.commentList {
+            width: 720px;
+            height: 222px;
+            margin-top: 10px;
+            padding: 20px;
+          }
+    
+          .view>section>h3{
+            font-weight: bold;
+          }
+    
+          .view>.commentList>article{
+            border-top: 1px dashed #999;
+            margin-top: 10px;
+            padding-top: 10px;
+          }
+          .view>.commentList>article>textarea{
+            width: 100%;
+            height: 60px;
+            padding: 6px;
+            box-sizing: border-box;
+            resize: none;
+            border: 0;
+            background: transparent;
+    
+          }
+    
+          .view>.commentList>.empty{
+            padding: 20px 0;
+            text-align: center;
+          }
+          .view>.commentForm>form>textarea{
+            width: 680px;
+            height: 62px;
+            box-sizing: border-box;
+            resize: none;
+            border: 1px solid #e4eaec;
+        
+          }
+    
+          .view>.commentForm>h3{
+            margin-bottom: 10px;
+          }
+    
+          .view>.commentForm>form>div{
+            
+            text-align: right;
+          }
+          div{
+            display: block;
+          }
+    
+  
+  
+
+  
+  /* footer */
+  footer {
+    width: 100%;
+    height: 36px;
+    background: #f7f7f7;
+    border-top: 1px solid #ebebeb;
+    box-sizing: border-box;
+  }
+  footer > p {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+    color: #777;
+  }
+  
+  /* 공통 */
+  .btnNext {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #bebebe;
+    background: #e9e9e9;
+    color: #111;
+  }
+  .btnCancel {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #bebebe;
+    background: #fdfdfd;
+    color: #111;
+  }
+  .btnSubmit {
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #3b3c3f;
+    background: #4b545e;
+    color: #fff;
+  }
+
+  .btnWrite {
+ 
+    padding: 7px;
+    border: 1px solid #3b3c3f;
+    background: #4b545e;
+    color: #fff;
+  }
+
+
+
+          .btnDelete {
+            display: inline-block;
+            padding: 8px;
+            border: 1px solid #bebebe;
+            background: #fdfdfd;
+            color: #111;
+          }
+
+          .btnModify {
+            display: inline-block;
+            padding: 8px;
+            border: 1px solid #bebebe;
+            background: #fdfdfd;
+            color: #111;
+          }
+
+          .btnList {
+            display: inline-block;
+            padding: 8px;
+            border: 1px solid #bebebe;
+            background: #fdfdfd;
+            color: #111;
+          }

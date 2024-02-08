@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팜스토리</title>
+    <link rel="stylesheet" href="../css/style.css">
+<style>
+    /*팜스토리 소개*/
+    .introduction{
+        
+    }
+    .introduction>.bg{
+        position: relative;
+        width: 100%;
+        height: 184px;
+        background: url(../images/sub_top_bg.jpg);
+    }
+    #sub>div>img{
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+    #sub aside>img{
+        width: 130px;
+        height: 45px;
+        margin: 16px;
+
+    }
+    #sub>section>article{
+        float: left;
+        width: 800px;
+        min-height: 650px;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    #sub> section > aside > ul {
+        width: 175px;
+        height: 233px;
+        background: url("../images/sub_aside_bg_lnb.png");
+        background-repeat: no-repeat;
+        padding-top:26px ;
+        box-sizing: border-box;
+    }
+
+    #sub > section > aside > ul > li {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-top: 2px solid #3f3f3f;
+            box-sizing: border-box;
+            font-size: 0;
+            background-repeat: no-repeat;
+            background-position: 0 6px;
+        }
+
+    #sub > section > aside > ul > li:nth-child(1)>a{background-image: url("../images/sub_cate1_lnb1.png");}
+    #sub > section > aside > ul > li:nth-child(2)>a{background-image: url("../images/sub_cate1_lnb2.png");}
+    
+    #sub > section > aside > ul > li:nth-child(1)>a:hover {
+        background-image: url("../images/sub_cate1_lnb1_ov.png");
+        background-repeat: no-repeat;
+    }
+    #sub > section > aside > ul > li:nth-child(2)>a:hover{
+        background-image: url("../images/sub_cate21_lnb2_ov.png");
+        background-repeat: no-repeat;
+    }
+
+
+    .content p{
+        margin-top: 10px;
+        line-height: 20px;
+        color:#666;
+        }
+    .content p>em{
+        font-weight: bold;
+        color: #91BA15;
+    }
+
+    .content>nav>img{
+        position: absolute;
+        left: 0;
+        bottom: 4px;
+    }
+    #sub>section>article>nav{
+        position: relative;
+        width: 100%;
+        height: 72px;
+        border-bottom: 1px solid #c2c2c2;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+    }
+    .content>nav>p{
+        position: absolute;
+        right: 0;
+        bottom: 4px;
+        color: #8c8c8c;
+        padding-left: 20px;
+        box-sizing: border-box;
+        background-image: url("../images/sub_page_nav_ico.gif");
+        background-repeat: no-repeat;
+        background-position: 10px;
+    }
+    #sub>section>article>nav>p>em{
+        font-weight: bold;
+        color: #91BA15;
+    }
+
+</style>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="#" class="logo"><img src="../images/logo.png" alt="로고"></a>
+            <p>
+                <a href="#">HOME</a>|
+                <a href="#">로그인</a>|
+                <a href="#">회원가입</a>|
+                <a href="#">관리자</a>|
+                <a href="#">고객센터</a>
+            </p>
+
+            <img src="../images/head_txt_img.png" alt="3만원이상 무료배송/팜카드 10%적립">
+
+            <ul class="gnb">
+                <li><a href="#">팜스토리소개</a></li>
+                <li>
+                    <a href="#">장보기</a>
+                    <img src="../images/head_menu_badge.png" alt="30%">
+                </li>
+                <li><a href="#">농작물이야기</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+
+        </header>
+        <div id="sub" class="introduction">
+            <div class="bg"><img src="../images/sub_top_tit1.png" alt="introduction"></div>
+            <section>
+                <aside>
+                    <img src="../images/sub_aside_cate1_tit.png" alt="팜스토리 소개">
+                <ul>
+                <li><a href="#">인사말</a></li>
+                <li><a href="#">찾아오시는길</a></li>
+                </ul>
+                </aside>
+                <article class="content">                    
+                <nav>
+                <img src="../images/sub_nav_tit_cate1_tit1.png" alt="인사말">
+                <p> HOME > 팜스토리소개 > <em>인사말</em></p>
+                </nav>
+                    <img src="../images/sub_page1_article_txt.png" alt="건강한 먹거리를 위해 노력합니다.">
+                    <p>
+                        항상 저희 팜스토리를 성원해 주시고 관심을 가져주시는 모든 분들께 감사의 인사를 드리며<br>
+                        가정에 건강과 행복이 가득하시길 기원합니다.<br><br>
+
+
+                        팜스토리는 신선하고 안전한 먹거리로 건강한 삶 만들기에 기여합니다.<br>
+                        보다 좋은 농산품을 공급하기 위해 화학비료를 쓰지 않는 건강한 흙에서 유기농업으로 정성을 다해 지은 농사를 통해 믿고 먹을 수 있는 먹거<br>리 제공에 앞장서겠습니다.<br><br>
+
+
+                    <em>친환경 농장</em><br>
+                        팜스토리는 경기도 이천에 위치한 10만평 규모의 유기농 제배단지입니다.<br><br>
+
+
+                    <em>친환경 캠페인</em><br>
+                    팜스토리는 2차 포장재 사용을 줄임으로써 친환경적인 포장과, 친환경적인 소비문화 정착을 위해 노력합니다.<br></p>
+
+            </article>
+            </section>
+
+
+
+        </div>
+        <footer>
+            <img src="../images/footer_logo.png" alt="로고">
+            <p>
+                (주)팜스토리 / 사업자등록번호 123-45-67890 / 통신판매업신고 제 2013-팜스토리구-123호 / 벤처기업확인 서울지방중소기업청 제 012345678-9-01234호<br>
+                등록번호 팜스토리01234 (2013.04.01) / 발행인 : 홍길동<br>
+                대표 : 김철학 / 이메일 : email@mail.mail / 전화 : 01) 234-5678 / 경기도 성남시 잘한다구 신난다동 345<br>
+                <span>Copyright ⓒ김철학 All rights reserved.</span><br>
+            </p>
+
+
+        </footer>
+    </div>
+</body>
+</html>

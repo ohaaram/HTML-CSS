@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #container{
+            width: 800px;
+            height: auto;
+            background: #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            margin : 0 auto;
+            border: 1px solid black;
+        }
+        /*header*/
+        header{
+            width: 100%;
+            height: 120px;
+            background: #eee;
+            border: 1px dashed black;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        /*main*/
+        main{
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+            background: #eee;
+            border: 1px dashed black;
+            box-sizing: border-box;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+        footer{
+            width: 100%;
+            height: 100px;
+            background: #eee;
+            border: 1px dashed black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        main>p{
+            margin-bottom: 10px;
+        }
+
+        main>aside{
+            float: left;
+            width: 216px;
+            height: 400px;
+            margin-right: 9px;
+            background: #ddd;
+            border: 1px dashed black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        main>section{
+            float: left;
+            width: 530px;
+            height: 400px;
+            background: #ddd;
+            border: 1px dashed black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div id="container">
+        <header>header</header>
+        <main>
+            <p>main</p>
+            <aside>aside</aside>
+            <section>section</section>
+        </main>
+        <footer>footer</footer>        
+    </div>
+</body>
+</html>

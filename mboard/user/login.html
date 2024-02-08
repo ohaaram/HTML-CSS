@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user::login</title>
+</head>
+<style>
+    /*초기화*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul,ol{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #111;
+    }
+    #container{
+        width: 800px;
+        height: auto;
+        padding: 10px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: #fff;
+        margin: 0 auto;
+    }
+    /*header*/
+    header{
+        width: 100%;
+        height: 50px;
+        background: #eee;
+        border: 1px solid black;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    /*main*/
+    main{
+        width: 100%;
+        height: 400px;
+        background: #eee;
+        border: 1px dashed black;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    main>.login{
+        position: relative;
+        overflow: hidden;
+        width: 360px;
+        height: auto;
+        border: 1px solid red;
+        margin: 100px auto;
+        box-sizing: border-box;
+    }
+    main table{
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .login .btnLogin{
+        position: absolute;
+        right: 60px;
+        top:30px;
+        width: 60px;
+        height: 60px;
+        background-color: #fff;
+        border: 1px solid #777;
+    }
+
+    main div{
+        width: 100%;
+        position: relative;
+        background: #777;
+    }
+    main div a{
+        float: right;
+    }
+
+    /*footer*/
+    footer{
+        width: 100%;
+        height: 37px;
+        padding: 10px;
+        background-color: #eee;
+        border: 1px dashed black;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    footer>p{
+        box-sizing: border-box;
+        text-align: right;
+        color: #555;
+        font-size: 8px '돋움';
+        font-style: italic;
+
+    }
+
+</style>
+<body>
+    <div id="container">
+        <header>
+            <h3>MBoard System v1.0</h3>
+        </header>
+        <main>
+            <section class="login">
+                <form>
+                    <table border="1">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="/images/login_ico_id.png" alt="아이디">
+                                </td>
+                                <td>
+                                    <input type="text" name="uid" placeholder="아이디 입력">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/images/login_ico_pw.png" alt="비밀번호">
+                                </td>
+                                <td>
+                                    <input type="text" name="pass" placeholder="비밀번호 입력">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="submit" value="로그인" class="btnLogin">
+                </form>
+                <div>
+                    <h3>회원 로그인 안내</h3>
+                    <p>아직 회원이 아니시면 회원으로 가입하세요.</p>
+                    <a href="#">회원가입</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>copyright @오아람.com</p>
+        </footer>
+    </div>    
+</body>
+</html>

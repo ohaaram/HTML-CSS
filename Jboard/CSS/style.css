@@ -200,7 +200,7 @@
           .register > form > table input {
             width: 162px;
             height: 22px;
-            border: 1px solid e4eaec;
+            border: 1px solid #e4eaec;
             background: #f7f7f7;
             text-indent: 4px;
           }
@@ -282,6 +282,7 @@
         text-align: right;
     }
 
+    /*modify*/
     .modify{
         margin: 30px auto;
     }
